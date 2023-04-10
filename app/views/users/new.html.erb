@@ -1,0 +1,17 @@
+<h1>Registro de Usuario</h1>
+
+<%= form_with model: @user, url: users_path do |form| %>
+<div class = "form">
+<label for="user">Username:</label><br>
+<%form.label :username%>
+<%= form.text_field :username, class:"form-control" %>
+</div>
+
+<div class = "form">
+<label for="password">Password:</label><br>
+<%form.label :password%>
+<%= form.password_field :password, class:"form-control" %>
+</div>
+
+<%= form.submit "Registrar"%>
+<% end %>

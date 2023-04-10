@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, sans-serif;
+  }
+
+header {
+    /*Agregue el codigo necesario para que:
+     - el background-color sea de un color diferente a blanco.
+     - el color del texto sea diferente.
+     - el tamano del texto sea mas grande (hint: font-size)
+    */
+    padding: 10px;
+    text-align: center;
+    grid-area: head;
+    background-color: burlywood;
+    color: black;
+  }
+body{
+  background-color: rgb(223, 214, 192);
+  color:black
+}
+
+li.boton-registro{
+  display: flex;
+  justify-content: flex-end;
+}
+li.inicio{
+  display: flex;
+  justify-content: flex-end;
+}
